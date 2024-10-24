@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD html 1.1//EN" "http://www.w3.org/TR/html11/DTD/html11.dtd">
+<html xmlns="http://www.w3.org/1999/html" xml:lang="en">
+  <head>
+    <title>Inepsy</title>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+	  <div class="content">
+<!-- Guide Header Begin -->
+<div class="lestuff">
+<h2 class="archiveTitle">YouTube on iOS 3 through 5, and iOS 6 in 2024.</h2>
+<table class="archiveHeader">
+<col class='alignRight'>
+            <tr><td><b></b>Author: <a href='../../about.html'>Inepsy</a></td></tr>
+          <tr><td>Difficulty: <span class='colorLOW'>LOW</span></td>
+                <td>Category: iOS</tr>
+          <tr><td>Time Required: 30 Minutes</td>
+                <td>Index: 001</td></tr>
+          <tr><td>Published: Jun. 3rd 2022</td>
+                <td>Status: <span class='colorVerified'>Verified</span></td></tr>
+</table>
+</div>
+<!-- Guide Header End -->
+  
+<!-- Intro Begin -->
+<div class="lestuff">
+<h3 class="archiveTitle">Introduction</h3>
+    <p class="ParaMain">This guide is for <b>ANY</b> <i>jailbroken</i> device running <b>iOS 3, 4, 5, and 6</b> whether that be officially, dual booted using coolbooter, or OTA downgraded.</p>
+    <p class="ParaMain"><b>NOTICE:</b> This article makes use of a service known as <b>TubeFixer</b> which is a <b>'Protocol Translator'</b>. Which means user data (such as watched videos, device version, device IP address, device product version, etc) are sent to a 3rd party server not operated by <b>'SnoopiTek'</b> or <b>'Google LLC'</b>. While not inherently dangerous (and a requirement to restore YouTube functionality) you should still be <a href='https://tubefixer.ovh/privacy.php' target="_blank">aware</a>.
+    </p>
+    <p class="ParaMain">In my testing this service and software or any in this guide have been free from issue.. but.. 
+    <br><b>THIS GUIDE, SOFTWARE, AND SERVICE IS PROVIDED WITH ABSOLUTELY NO WARRANTY.</b>
+    </p>
+</div>
+<!-- Intro End -->
+  
+<!-- Required Components Start -->  
+<div class='lestuff'>
+<h3 class='archiveTitle'>Prerequisites</h3> 
+    <ul class='ParaMain'>
+    <li>A Jailbroken iOS 3-5 or iOS 6 iDevice with Cydia</li>
+    <li><a href='cydia://url/https://cydia.saurik.com/api/share#?source=http://cydia.invoxiplaygames.uk/beta/' target="_blank">Invoxi's Beta Cydia Repo</a></li>
+    <li><a href='cydia://package/uk.invoxiplaygames.tubefixer' target='_blank'>TubeFixer</a></li>
+    <li><a href='cydia://package/uk.invoxiplaygames.youtube' target="_blank">Original YouTube App</a> <span style='color: red'><b>[iOS 6 Only]</b></span></li>
+    </ul>
+</div>
+<!-- Required Components End -->
+  
+<!-- Step 1. -->
+<div class="lestuff">
+<h3 class="archiveTitle">Step 1. Invoxi's Cydia Repository</h3>
+    <p class="ParaMain">As with most Cydia packages we will need to add a 3rd party repository.</p>
+    <p class="ParaMain"><b>TIP: This website can be loaded on most 'vintage' iOS devices, thus to make things easier if you use the hyperlinks in the prerequisites section they will open directly in Cydia.</b></p>
+    <p class='ParaMain'>To add the repository open <b>'Cydia' -> 'Sources' -> 'Edit' -> 'Add'</b>
+    a box should pop up asking for a Cyda/APT url, in which input: <b>'https://cydia.invoxiplaygames.uk/beta'</b>. Once it completes, tap <b>'Return to Cydia'.</b></p>
+    <p class='ParaMain'><img class='archiveImageBig' src="001assets/invoxirepo1.jpg" alt="Successfully added Repo" style="border: 1px outset black"></p>
+    <p class='ParaMain'>The repo is now successfully added!</p>
+</div>
+
+<!-- Step 2. -->
+<div class="lestuff">
+<h3 class="archiveTitle">Step 2. Restoring the Original Youtube App <span style='color: red'>[iOS 6 Only!]</span></h3>
+    <p class="ParaMain">In iOS 6 because of Google's purchase of YouTube the native app was removed. Luckily due to the hard work of.. someone.. the app from iOS 5 has been ported to iOS 6 and can be installed from the repo added previously.</p>
+          <p class="ParaMain"><b>TIP: Once you add the repository in the prior step, the hyperlinks in the prerequisites section will load directly in Cydia if clicked.</b></p>
+    <p class='ParaMain'>So go to <b>'Cydia' -> 'Sources' --> 'IPG's Beta Cydia Repo' -> 'All Packages' -> 'Classic YouTube App'</b>.</p>
+    <p class='ParaMain'><img class='archiveImageBig' src="001assets/cya1.jpg" alt="Successfully added Repo" style="border: 1px outset black"></p>
+    <p class='ParaMain'>Once you find that package tap <b>'Install' -> 'Confirm'.</b>
+    <br>Then once it completes tap <b>'Return to Cydia'.</b>
+    <br>The original YouTube App is now installed!
+    </p>
+</div>
+  
+<!-- Step 3. -->
+<div class="lestuff">
+<h3 class="archiveTitle">Step 3. TubeFixer</h3>
+    <p class="ParaMain">With the original YouTube App installed (or if you already have it) we must now install the 'Protocol Translator' <b>TubeFixer</b></p>
+    <p class='ParaMain'><b>TIP: I know im repeating myself but you're too epic to be manually navigating Cydia, to avoid skin callusing the hyperlinks in the prerequisites section will load directly in Cydia. c:</b></p>
+    <p class='ParaMain'>To do so open <b>'Cydia' --> 'Sources' -> 'IPG's Beta Cydia Repo' -> 'TubeFixer'.</b></p>
+    <p class='ParaMain'><img class='archiveImageBig' src="001assets/tf1.jpg" alt="Successfully added Repo" style="border: 1px outset black"></p>
+    <p class='ParaMain'> Then click <b>'Modify' -> 'Install' -> 'Confirm' -> 'Restart SpringBoard'.</b>
+    <br>TubeFixer is now installed!</p>
+</div>
+
+  
+<!-- Step 4. -->
+<div class="lestuff">
+<h3 class="archiveTitle">Step 4. Acquiring a YouTube API Key</h3>
+    <p class="ParaMain">Now with TubeFixer installed to actually <i>use</i> it we need to get a YouTube Data API v3 key. Which while scary sounding its really not that complicated.</p>
+    <p class='ParaMain'>Simply go to <a href='https://console.cloud.google.com/apis/library/youtube.googleapis.com' target="_blank">here</a>. Click <b>'Enable'</b> then give it a few seconds.</p>
+    <p class='ParaMain'>Once it completes click <b>'Credentials' -> 'Create Credentials' -> 'API Key'.</b></p>
+    <p class='ParaMain'><img class='archiveImage' src="001assets/youtubedataapi1.jpg" style="border: 1px outset black"></p>
+    <p class='ParaMain'>You should now be visually assaulted by your very own <b>YouTube API Key!</b></p>
+    <p class='ParaMain'><img class='archiveImage' src="001assets/youtubedataapi2.jpg" style="border: 1px outset black"></p>
+    <p class=ParaMain>You now have a YouTube Data API Key!</p>
+</div>
+  
+<!-- Step 5. -->
+<div class="lestuff">
+<h3 class="archiveTitle">Step 5. 'Installing' The Key into TubeFixer</h3>
+    <p class=ParaMain>Now with the key in hand we need to get it onto the iDevice, to do so you can use anything you'd like; I will use email.
+    </p>
+    <p class='ParaMain'><img class='archiveImageBig' src="001assets/apikey1.jpg" style="border: 1px outset black"></p>
+    <p class='ParaMain'>Now with the key, copy it into the clipboard then go to <b>'Settings' -> 'TubeFixer'</b>.</p>
+    <p class='ParaMain'><img class='archiveImageBig' src="001assets/apikey2.jpg" style="border: 1px outset black"></p>
+    <p class='ParaMain'>Tap on it then you should see this:</p>
+    <p class='ParaMain'><img class='archiveImageBig' src="001assets/apikey3.jpg" style="border: 1px outset black"></p>
+  <p class='ParaMain'>Once you see that menu, switch <b>'Custom API Key'</b> to <b>ON</b> then paste the key in the box.
+    <br>Functionality of the original YouTube App should now be restored!</p>
+</div>
+  
+<!-- Conslusion -->
+<div class="lestuff">
+<h3 class="archiveTitle">Conclusion</h3>
+    <p class=ParaMain>And there you have it (most of) the functionality of the original YouTube App should be restored!~</p>
+    <p class='ParaMain'><img class='archiveImage' src="001assets/conclusion.jpg" style="border: 1px outset black"></p>
+    <p class='ParaMain'>Oh.. you wanna know about that. Well there are a few features that don't work like commenting, rating, and subscribing because this mobile app was released even before Google+ sign in was a thing.. oh and also shorts dont work.. thank god. But other then that everything else works! :3</p>
+</div> 
+            <p></p>
+            <div class="center">
+              <a href="index.html">&lt; GO BACK TO THE HOME PAGE &gt;</a>
+            </div>
+      </div>
+  </body>
+</html>

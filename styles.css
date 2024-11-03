@@ -1,6 +1,5 @@
 body {
     background:  linear-gradient(#00000099, #00000099), url("images/stars.gif") repeat;
-    image-rendering: optimizespeed;
     font-family: MorePeftectDos, 'Courier New', monospace;
     text-align: justify;
     word-break: break-word;

@@ -194,10 +194,11 @@ h4{
 
 .archiveImage{
     margin-top: 0%;
-    max-width: 778px;
+    width: 100%;
 }
 .archiveImageBig{
     margin-top: 0px;
+    width: 100%;
     max-width: 300px;
 }
 

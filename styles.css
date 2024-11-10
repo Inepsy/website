@@ -130,7 +130,7 @@ p img {
     background-color: #696969
   }
   .AlbumThumb {
-      width: 320px
+      width: 100%;
   }
   
   .ImageDescription {

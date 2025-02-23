@@ -24,6 +24,9 @@ img {
 	min-width: 5em;
 	width: 50%;
 	display: block;
+}
+
+.portrait {
 	border-radius: 50%;
 }
 
@@ -63,4 +66,3 @@ p.footer {
 	margin-top: 4em;
 	text-align: center;
 }
-
